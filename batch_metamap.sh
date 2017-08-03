@@ -1,4 +1,5 @@
-for file in /dir/*.txt
+files=.data/textfiles/*.txt
+for file in $files
 do
-	metamap "$file" "$file.output"
+	metamap "$file" "./data/output/${file##*/}.out"
 done
