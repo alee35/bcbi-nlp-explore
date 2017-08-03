@@ -8,6 +8,12 @@ https://metamap.nlm.nih.gov/Docs/MM_2016_Usage.pdf
 2. Finds phrases within sentences
 3. Finds concepts within phrases
 
+### Using screen and metamap on all text files in a directory 
+1. Log into Stronghold
+2. `module load conda/psteytest` or `module load conda/bcbi_v1`
+3. `screen -AmdS test_metamap bash batch_metamap.sh`
+4. Attach and Detach to screen with `screen -x ###.test_metamap` and keyboard shortcut Control-a-d
+
 ### Sample Metamap Output:
 ```
 Processing 00000000.tx.2: He has lost about 200 pounds and was otherwise doing well until yesterday evening around 7:00-8:00 when he developed nausea and right upper quadrant pain, which apparently wrapped around toward his right side and back.
